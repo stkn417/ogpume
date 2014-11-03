@@ -4,7 +4,7 @@
 worker_processes 1
 working_directory @path
 timeout 300
-listen '/tmp/twiume.sock'
+listen '/tmp/ogpume.sock'
 pid "#{@path}tmp/pids/unicorn.pid"
 
 stderr_path "#{@path}log/unicorn.stderr.log"
