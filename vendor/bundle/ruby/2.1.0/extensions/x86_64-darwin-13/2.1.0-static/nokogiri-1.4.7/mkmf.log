@@ -1,0 +1,573 @@
+find_header: checking for libxml/parser.h... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector     -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc-4.2 -E -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline  conftest.c -o conftest.i"
+couldn't understand kern.osversion `14.0.0'
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/parser.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxslt/xslt.h... -------------------- yes
+
+"gcc-4.2 -E -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline  conftest.c -o conftest.i"
+couldn't understand kern.osversion `14.0.0'
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxslt/xslt.h>
+/* end */
+
+--------------------
+
+find_header: checking for libexslt/exslt.h... -------------------- yes
+
+"gcc-4.2 -E -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline  conftest.c -o conftest.i"
+couldn't understand kern.osversion `14.0.0'
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libexslt/exslt.h>
+/* end */
+
+--------------------
+
+have_func: checking for iconv_open() in iconv.h... -------------------- no
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector     -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+ld: warning: directory not found for option '-L/opt/local/lib'
+Undefined symbols for architecture x86_64:
+  "_iconv_open", referenced from:
+      _t in ccbuJFLD.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     printf("%p", &t);
+11:   }
+12: 
+13:   return 0;
+14: }
+15: int t(void) { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector     -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:15: error: too few arguments to function ‘iconv_open’
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     printf("%p", &t);
+11:   }
+12: 
+13:   return 0;
+14: }
+15: int t(void) { iconv_open(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for iconv_open() in -liconv... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector     -lruby-static -framework CoreFoundation -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <iconv.h>
+ 4: 
+ 5: /*top*/
+ 6: extern int t(void);
+ 7: int main(int argc, char **argv)
+ 8: {
+ 9:   if (argc > 1000000) {
+10:     printf("%p", &t);
+11:   }
+12: 
+13:   return 0;
+14: }
+15: int t(void) { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for xmlParseDoc() in -lxml2... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -liconv  -lruby-static -framework CoreFoundation -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlParseDoc’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -liconv  -lruby-static -framework CoreFoundation -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlParseDoc’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlParseDoc(); return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for xsltParseStylesheetDoc() in -lxslt... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lxml2 -liconv  -lruby-static -framework CoreFoundation -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xsltParseStylesheetDoc’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lxml2 -liconv  -lruby-static -framework CoreFoundation -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xsltParseStylesheetDoc’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xsltParseStylesheetDoc(); return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for exsltFuncRegister() in -lexslt... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘exsltFuncRegister’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘exsltFuncRegister’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { exsltFuncRegister(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlFirstElementChild’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlFirstElementChild’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlFirstElementChild(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlRelaxNGSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlRelaxNGSetValidStructuredErrors’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlSchemaSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlSchemaSetValidStructuredErrors’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlSchemaSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: error: ‘xmlSchemaSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:13: error: (Each undeclared identifier is reported only once
+conftest.c:13: error: for each function it appears in.)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return 0; }
+/* end */
+
+"gcc-4.2 -o conftest -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/x86_64-darwin13.0 -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0/ruby/backward -I/Users/kenta/.rbenv/versions/2.1.3/include/ruby-2.1.0 -I. -I/opt/local/include/libxml2 -I/usr/local/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include/libxml2 -I/opt/local/include -I/usr/local/include -I/usr/include -I/usr/include/libxml2 -I/Users/kenta/.rbenv/versions/2.1.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -O3 -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline conftest.c  -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/opt/local/lib -L/usr/local/lib -L/Users/kenta/.rbenv/versions/2.1.3/lib -L/usr/lib -L. -L/Users/kenta/.rbenv/versions/2.1.3/lib  -fstack-protector    -lexslt -lxslt -lxml2 -liconv  -lruby-static -framework CoreFoundation -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+couldn't understand kern.osversion `14.0.0'
+conftest.c: In function ‘t’:
+conftest.c:13: warning: implicit declaration of function ‘xmlSchemaSetParserStructuredErrors’
+ld: warning: directory not found for option '-L/opt/local/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { xmlSchemaSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+

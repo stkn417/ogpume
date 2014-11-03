@@ -1,0 +1,114 @@
+/Users/kenta/.rbenv/versions/2.1.3/bin/ruby extconf.rb 
+extconf.rb:10:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:10:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:11:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:20:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:20:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:22:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+extconf.rb:36:in `<main>': Use RbConfig instead of obsolete and deprecated Config.
+checking for libxml/parser.h... yes
+checking for libxslt/xslt.h... yes
+checking for libexslt/exslt.h... yes
+checking for iconv_open() in iconv.h... no
+checking for iconv_open() in -liconv... yes
+checking for xmlParseDoc() in -lxml2... yes
+checking for xsltParseStylesheetDoc() in -lxslt... yes
+checking for exsltFuncRegister() in -lexslt... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling html_document.c
+couldn't understand kern.osversion `14.0.0'
+compiling html_element_description.c
+couldn't understand kern.osversion `14.0.0'
+html_element_description.c: In function ‘get_description’:
+html_element_description.c:249: warning: cast discards qualifiers from pointer target type
+compiling html_entity_lookup.c
+couldn't understand kern.osversion `14.0.0'
+compiling html_sax_parser_context.c
+couldn't understand kern.osversion `14.0.0'
+compiling nokogiri.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_attr.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_attribute_decl.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_cdata.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_comment.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_document.c
+couldn't understand kern.osversion `14.0.0'
+xml_document.c: In function ‘Nokogiri_wrap_xml_document’:
+xml_document.c:471: warning: passing argument 1 of ‘st_init_numtable_with_size’ with different width due to prototype
+compiling xml_document_fragment.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_dtd.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_element_content.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_element_decl.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_encoding_handler.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_entity_decl.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_entity_reference.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_io.c
+couldn't understand kern.osversion `14.0.0'
+xml_io.c: In function ‘io_read_callback’:
+xml_io.c:20: warning: passing argument 4 of ‘rb_rescue’ with different width due to prototype
+xml_io.c: In function ‘io_write_callback’:
+xml_io.c:45: warning: passing argument 4 of ‘rb_rescue’ with different width due to prototype
+compiling xml_libxml2_hacks.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_namespace.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_node.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_node_set.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_processing_instruction.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_reader.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_relax_ng.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_sax_parser.c
+couldn't understand kern.osversion `14.0.0'
+xml_sax_parser.c: In function ‘start_element’:
+xml_sax_parser.c:67: warning: passing argument 1 of ‘rb_ary_new_from_args’ with different width due to prototype
+compiling xml_sax_parser_context.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_sax_push_parser.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_schema.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_syntax_error.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_text.c
+couldn't understand kern.osversion `14.0.0'
+compiling xml_xpath_context.c
+couldn't understand kern.osversion `14.0.0'
+xml_xpath_context.c: In function ‘xpath_generic_exception_handler’:
+xml_xpath_context.c:184: warning: format not a string literal and no format arguments
+compiling xslt_stylesheet.c
+couldn't understand kern.osversion `14.0.0'
+xslt_stylesheet.c: In function ‘initFunc’:
+xslt_stylesheet.c:213: warning: cast discards qualifiers from pointer target type
+linking shared-object nokogiri/nokogiri.bundle
+couldn't understand kern.osversion `14.0.0'
+ld: warning: directory not found for option '-L/opt/local/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20141103-79946-1kwe3fc/nokogiri
+installing default nokogiri libraries
