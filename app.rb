@@ -17,7 +17,7 @@ class App < Sinatra::Base
     page = OpenGraph.fetch(@link)
 
     @title = page.title
-    @code = "#{page.image}\n\n<strong>#{page.title}</strong>\n\n#{@link}"
+    @code = "<img src=\"#{page.image}\"/>\n\n<strong>#{page.title}</strong>\n\n<a href=\"#{@link}\">#{@link}</a>"
 
     slim :index
   end
